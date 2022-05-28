@@ -1,3 +1,17 @@
+# 28.05.2022 Big Bloom update!!! 
+![image](https://user-images.githubusercontent.com/89750173/170828809-0bbb5c0a-7a57-4c61-8277-f75c4655fa6a.png)
+* Changed bloom filter size.
+* From 512MB to 2.1GB !!!
+* Ideal for ~ 3GB bases  
+------
+
+# 28.05.2022 Big Bloom обновление!!!   
+![image](https://user-images.githubusercontent.com/89750173/170828809-0bbb5c0a-7a57-4c61-8277-f75c4655fa6a.png)
+* Изменён размер создаваемого блюм фильтра.
+* с 512Мб до 2.1Гб !!!
+* Идеально для баз размером ~ 3Гб  
+# Donation: bc1qlwcaxwnp2ulndlppdc0wvkdz7ly2npfuz6ny0a  
+
 Brainflayer
 ===========
 
