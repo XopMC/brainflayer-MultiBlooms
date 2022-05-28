@@ -5,7 +5,7 @@
 #include <stdint.h>
 
 /* 2^32 bits */
-#define BLOOM_SIZE (512*1024*1024)
+#define BLOOM_SIZE (2147483647)
 
 #define BLOOM_SET_BIT(N) (bloom[(N)>>3] = bloom[(N)>>3] | (1<<((N)&7)))
 #define BLOOM_GET_BIT(N) ( ( bloom[(N)>>3]>>((N)&7) )&1)

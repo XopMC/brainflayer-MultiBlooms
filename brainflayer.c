@@ -326,7 +326,7 @@ inline static void fprintresult(FILE *f, hash160_t *hash,
 }
 
 void usage(unsigned char *name) {
-  printf("Usage: %s [OPTION]...\n\n\
+  printf("Usage: %s [OPTION]...\n\nBig-Bloom ver. BY @XopMC for t.me/brythbit\n\n\
  -a                          open output file in append mode\n\
  -b FILE                     check for matches against bloom filter FILE\n\
  -f FILE                     verify matches against sorted hash160s in FILE\n\
@@ -367,7 +367,7 @@ void usage(unsigned char *name) {
  -m FILE                     load ecmult table from FILE\n\
                              the ecmtabgen tool can build such a table\n\
  -v                          verbose - display cracking progress\n\
- -h                          show this help\n", name, BATCH_MAX);
+ -h                          show this help\n\nBig-Bloom ver. BY @XopMC for t.me/brythbit\n\n", name, BATCH_MAX);
 //q, --quiet                 suppress non-error messages
   exit(1);
 }
@@ -850,7 +850,8 @@ int main(int argc, char **argv) {
             "\033[0G\033[2K"
             " rate: %9.2f p/s"
             " found: %5zu/%-10zu"
-            " elapsed: %8.3f s"
+            " elapsed: %8.3f s "
+            "\nBig-Bloom ver. BY @XopMC for t.me/brythbit\n"
             "\033[0G",
             ilines_rate_avg,
             olines,
