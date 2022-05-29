@@ -851,7 +851,7 @@ int main(int argc, char **argv) {
             " rate: %9.2f p/s"
             " found: %5zu/%-10zu"
             " elapsed: %8.3f s "
-            "\nBig-Bloom ver. BY @XopMC for t.me/brythbit\n"
+            " Big-Bloom ver. BY @XopMC for t.me/brythbit\n"
             "\033[0G",
             ilines_rate_avg,
             olines,
