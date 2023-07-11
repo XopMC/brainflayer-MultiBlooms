@@ -36,7 +36,7 @@
 #define BATCH_MAX 4096
 
 // Number of supported bloom files.
-#define BOPT_MAX 10
+#define BOPT_MAX 100
 
 static int brainflayer_is_init = 0;
 
@@ -47,8 +47,8 @@ typedef struct pubhashfn_s {
 
 static unsigned char *mem;
 
-static mmapf_ctx bloom_mmapf[10];
-static unsigned char *bloom, *blooms[10];
+static mmapf_ctx bloom_mmapf[100];
+static unsigned char *bloom, *blooms[100];
 
 static unsigned char *unhexed = NULL;
 static size_t unhexed_sz = 4096;
